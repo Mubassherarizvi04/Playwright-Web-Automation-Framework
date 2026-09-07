@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Playwright generated output — regenerated every run, never commit these
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+
+# Screenshots and videos captured during test runs
+screenshots/
+videos/
+
+# Environment variables and secrets — NEVER commit real credentials
+.env
+.env.local
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+npm-debug.log*
+*.log

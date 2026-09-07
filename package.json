@@ -1,0 +1,35 @@
+{
+  "name": "playwright-web-automation-framework",
+  "version": "1.0.0",
+  "description": "A Playwright + JavaScript UI and API test automation framework built as a QA portfolio project. Demonstrates Page Object Model, REST API testing, cross-browser execution, HTML reporting and CI/CD with GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test tests/ui",
+    "test:api": "npx playwright test tests/api",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:regression": "npx playwright test --grep @regression",
+    "report": "npx playwright show-report",
+    "codegen": "npx playwright codegen https://automationexercise.com"
+  },
+  "keywords": [
+    "playwright",
+    "javascript",
+    "automation",
+    "qa",
+    "testing",
+    "api-testing",
+    "page-object-model",
+    "ci-cd"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "dotenv": "^16.4.5"
+  }
+}

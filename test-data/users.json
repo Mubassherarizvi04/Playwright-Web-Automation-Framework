@@ -1,0 +1,17 @@
+{
+  "invalidLogin": {
+    "email": "not_a_real_user_9284@example.com",
+    "password": "WrongPassword123"
+  },
+  "emptyLogin": {
+    "email": "",
+    "password": ""
+  },
+  "searchTerms": {
+    "valid": "Dress",
+    "invalid": "zzz_nonexistent_product_zzz"
+  },
+  "checkoutMessage": {
+    "orderComment": "Please deliver between 9am and 6pm. (Automated test order — do not fulfill.)"
+  }
+}
